@@ -16,7 +16,7 @@ This project works through the full big-data pipeline dataset:
 - **Contents:** 
 - **License:** 
 - **Note:**
-- 
+  
 ## Repository Structure
 
 ```
