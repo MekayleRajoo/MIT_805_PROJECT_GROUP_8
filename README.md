@@ -1,4 +1,4 @@
-# MIT 805 — Big Data Semester Project (2026)
+# MIT 805 - Big Data Semester Project (2026)
 
 Group project for MIT 805, analyzing the **NY Yellow Taxi** dataset.
 
@@ -13,7 +13,7 @@ This project works through the full big-data pipeline dataset:
 ## Dataset
 
 - **Source:** New York City Taxi and Limousine Commission (TLC), via the official TLC Trip Record Data page (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-- **Contents:** Yellow Taxi trip records covering the period 2014-2026, including vendor ID, pickup/dropoff timestamps and locations, passenger count, trip distance, fare and payment details, and rate code. Two derived variables — trip duration (hours) and average trip speed (mph) — were added during cleaning.
+- **Contents:** Yellow Taxi trip records covering the period 2014-2026, including vendor ID, pickup/dropoff timestamps and locations, passenger count, trip distance, fare and payment details, and rate code. Two derived variables - trip duration (hours) and average trip speed (mph) - were added during cleaning.
 - **License:** Data provided by the TLC is publicly available as open data
 - **Note:** This analysis used a 30% random sample of the cleaned dataset (seed=42) for computational feasibility
   
@@ -30,7 +30,7 @@ project/
 ├── src/                  # Reusable scripts and modules
 ├── output/               # Generated tables and intermediate results
 ├── figures/              # Plots and visualizations used in the report
-└── report/               # Written report(s) — Part 1 and Part 2 PDFs
+└── report/               # Written report(s) - Part 1 and Part 2 PDFs
 ```
 
 
@@ -43,5 +43,5 @@ project/
 
 ## Group Members
 
-- [Name 1] — Savannah Canto
-- [Name 2] — Mekayle Rajoo
+- [Name 1] - Savannah Canto
+- [Name 2] - Mekayle Rajoo
