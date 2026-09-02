@@ -15,7 +15,7 @@ This project works through the full big-data pipeline dataset:
 - **Source:** New York City Taxi and Limousine Commission (TLC), via the official TLC Trip Record Data page (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - **Contents:** Yellow Taxi trip records covering the period 2014-2026, including vendor ID, pickup/dropoff timestamps and locations, passenger count, trip distance, fare and payment details, and rate code. Two derived variables - trip duration (hours) and average trip speed (mph) - were added during cleaning.
 - **License:** Data provided by the TLC is publicly available as open data
-- **Note:** This analysis used a 30% random sample of the cleaned dataset (seed=42) for computational feasibility
+- **Note:** This analysis used a 30% random sample of the cleaned dataset for computational feasibility
   
 ## Repository Structure
 
