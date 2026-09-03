@@ -1,20 +1,20 @@
 # Dataset
-Name of the dataset (e.g. NIH ChestX-ray14), one sentence on what it contains.
-2
+
+**NYC Yellow Taxi Trip Records** 
+
 ## Source
-Where it's from — link to the official source (Kaggle, NIH Box, etc.), who published it, and when.
-3
+Published by the New York City Taxi and Limousine Commission (TLC), available via https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
 ## Dataset Sizes
-Raw: X GB (full public dataset) / Working: X GB (what you downloaded/preprocessed) / Processing: X GB (what PySpark actually processes). These are required by your assignment, so list them plainly.
-4
+- **Raw**: The full public dataset (2009–present) exceeds 50 GB
+- **Working**: 12 GB 
+- **Processing**: 4 GB (after cleaning and taking a 20% random sample for computational feasibility)
+
 ## Format & Structure
-File type (PNG, CSV, Parquet, etc.), rough structure (e.g. "112,120 images + one metadata CSV with labels"), and where the raw files live if not committed to the repo (e.g. "downloaded separately due to size, see Source link").
-5
+Data is released as one Parquet file per month. Each row represents a single taxi trip. Raw files include fields such as VendorID, tpep_pickup_datetime, tpep_dropoff_datetime, passenger_count, trip_distance, RatecodeID, store_and_fwd_flag, PULocationID, DOLocationID, payment_type, fare_amount, extra, mta_tax, tip_amount, tolls_amount, improvement_surcharge, total_amount, congestion_surcharge, airport_fee, and cbd_congestion_fee. Two derived variables - trip_duration (hours) and average_trip_speed (mph) - were engineered during cleaning. Raw files were downloaded separately due to size and are not committed to this repository.
+
 ## Collection Period
-One or two sentences — when the data was collected (e.g. "1992–2015") and when it was published/last updated.
-6
+Data collection began in 2009 and continues to the present, with monthly files published on a rolling basis with a 2 month delay. This project analyses the subset from 2014–2026.
+
 ## License / Terms of Use
-State the dataset's license/terms of use, and confirm it's suitable for academic use — this is explicitly required by your assignment brief.
-7
-## Preprocessing Notes (optional)
-If you filtered, resized, cleaned, or sampled the data to get your working/processing subset, note it briefly here — or just say "see notebooks/ for preprocessing steps" if the detail lives elsewhere.
+Data is published as open government data by the NYC TLC. The TLC makes no representations as to the accuracy of the data, and no personal/individual identifiers are included, making it suitable for academic use.
