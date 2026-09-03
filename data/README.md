@@ -1,6 +1,6 @@
 # Dataset
 
-**NYC Yellow Taxi Trip Records** 
+**NYC Yellow Taxi Trip Records** - trip-level records of New York City Yellow Taxi rides
 
 ## Source
 Published by the New York City Taxi and Limousine Commission (TLC), available via https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
@@ -18,3 +18,6 @@ Data collection began in 2009 and continues to the present, with monthly files p
 
 ## License / Terms of Use
 Data is published as open government data by the NYC TLC. The TLC makes no representations as to the accuracy of the data, and no personal/individual identifiers are included, making it suitable for academic use.
+
+## Processing Data
+Due to the size limit of file sizes on Github we have uploaded our files to Google Drive which you can find here: https://drive.google.com/drive/folders/1mpjButE14UIQPJA-h8JlGZGFfXd2Xz1a?usp=drive_link
