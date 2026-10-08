@@ -38,8 +38,8 @@ project/
 
 | Part | Description | Due Date | Status |
 |---|---|---|---|
-| Part 1 | Data Collection & Analysis | 03-09-2026 | In progress |
-| Part 2 | MapReduce & Visualization | 08-10-2026 | Not started |
+  | Part 1 | Data Collection & Analysis | 03-09-2026 | Completed |
+| Part 2 | MapReduce & Visualization | 08-10-2026 | Completed |
 
 ## Group Members
 
